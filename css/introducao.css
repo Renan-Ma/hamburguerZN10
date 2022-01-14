@@ -1,0 +1,39 @@
+
+
+.introducao{
+  overflow: hidden;
+}
+
+.image {
+  position: relative;
+}
+
+.image::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: var(--base-color-second);
+  position: absolute;
+  top: -16.8%;
+  left: 16.8%;
+  z-index: -1;
+}
+
+.image img {
+  position: relative;
+  right: 2.93rem;
+}
+
+.image::before, .image img {
+  border-radius: 0.25rem;
+}
+
+.text {
+  text-align: center;
+  max-width: 90%;
+}
+
+.text p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}

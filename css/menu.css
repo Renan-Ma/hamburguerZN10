@@ -1,0 +1,33 @@
+header {
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  width: 100%;
+  background-color: var(--body-color);
+  /* fixar menu no top do site */
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  width: 100%;
+}
+
+.logo {
+  font: 700 1.31rem "Poppins", sans-serif;
+  color: var(--title-color);
+}
+
+.logo span {
+  color: var(--base-color);
+}
+
+main {
+  margin-top: 4.5rem;
+}
+
