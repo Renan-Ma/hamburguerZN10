@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamburguer ZN10</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Icones  -->
+    <link rel="stylesheet" href="assets/fonts/style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,20 +18,30 @@
   </head>
   <body>
     <header>
-      <nav class="container">
+      <nav class="container ">
         <a class="logo" href="#">Hamburguer <span> ZN10</span></a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#sobre">Sobre</a></li>
+            <li><a class="title" href="#servicos">Serviços</a></li>
+            <li><a class="title" href="#depoimentos">Depoimentos</a></li>
+            <li><a class="title" href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu toggle"></div>
+        <div class="icon-x toggle"></div>
       </nav>
     </header>
 
     <main>
-      <section class="introducao">
+      <section class="section" id="home">
         <div class="container grid">
           <div class="image">
-            <img src="img/img 1.jpg" alt="hamburguer foto principal" />
+            <img src="assets/img/img 1.jpg" alt="hamburguer foto principal" />
           </div>
           <div class="text">
-            <h1>O melhor hamburguer da Zona Norte</h1>
+            <h1 class="title">O melhor hamburguer da Zona Norte</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Distinctio reprehenderit sequi necessitatibus quae cumque
@@ -42,6 +54,22 @@
 
       <div class="divider-1"></div>
 
+      <section class="section" id="sobre">
+        <div class="container grid">Sobre</div>
+      </section>
+
+      <section class="section" id="servicos">
+        <div class="container grid">Serviços</div>
+      </section>
+
+      <section class="section" id="depoimentos">
+        <div class="container grid">Depoimentos</div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="container grid">Contato</div>
+      </section>
     </main>
+    <script src="js/script.js"></script>
   </body>
 </html>
